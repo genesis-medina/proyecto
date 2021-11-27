@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMUALRIO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="formulario.css">
+</head>
+
+
+<body>
+    <div class="box">
+        <form action="">
+            <fieldset>
+                <legend><b>Formulario </b></legend>
+            <br>
+            <div class="inputBox">
+             <div class="main">
+              <form>
+                <div class="campo">
+                    <input type="text" name="nombres" id="nombres">
+                    <label for="nombres">Nombres </label>
+                
+               </div>
+               <div class="campo">
+                    <input type="text" name="apellidos" id="apellidos">
+                    <label for="apellidos">Apellidos </label>
+                
+               </div>
+               <div class="campo">
+                    <input type="email" name="email" id="email">
+                    <label for="email">email </label>
+               </div>
+               <div class="campo">
+                   <input type="date" name="fechaNacimieto" id="fecha-nacimiento">
+                   <label for="fecha-nacimiento">Fecha de nacimiento</label>
+               </div>
+               <div class="campo">
+                   <p>Género:</p>
+                  
+                      <span class="tab"></span><input type="radio" id="f" name="genero" value="f">
+                    <label for="femenino">Femenino</label>
+                   <input type="radio" id="m" name="genero" value="m">
+                   <label for="m">Masculino</label>
+                  
+                  
+                  
+                  <div class="campo">
+                  <button type="button" id="enviar" onclick="datos()">Enviar</button>
+              </div>
+          </fieldset> 
+        </form>
+    </div>
+    <script src="formulario.js"></script>
+</body>
+</html>
